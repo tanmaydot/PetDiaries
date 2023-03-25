@@ -69,4 +69,4 @@ mongoose
     // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
-console.log(url);
+console.log(process.env.url, PORT, url);
