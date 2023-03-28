@@ -53,7 +53,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001 || 6001;
 const url =
   "mongodb+srv://petdairies:petdairies@cluster1.nebibmu.mongodb.net/?retryWrites=true&w=majority";
 mongoose.set("strictQuery", false);
