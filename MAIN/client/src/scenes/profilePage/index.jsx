@@ -52,7 +52,7 @@ const ProfilePage = () => {
           mt={isNonMobileScreens ? undefined : "2rem"}
           // eslint-disable-next-line react/jsx-no-comment-textnodes
         >
-          // eslint-disable-next-line no-undef
+          {/* eslint-disable-next-line no-undef */}
           <MyPostWidget picturePath={loggedInUser.picturePath} />
           <Box m="2rem 0" />
           <PostsWidget userId={userId} isProfile />

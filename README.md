@@ -2,6 +2,19 @@
 
 React MERN Social Media App inspired from <https://github.com/ed-roh/mern-social-media>
 
+![DM1](public/FinishProduct/DarkMode1.png)
+
+![DM2](public/FinishProduct/DarkMode2.png)
+
+![DM3](public/FinishProduct/DarkMode3.png)
+
+![DM4](public/FinishProduct/DarkMode4.png)
+
+![LM1](public/FinishProduct/LightMode1.png)
+
+![LM2](public/FinishProduct/LightMode2.png)
+
+![LM3](public/FinishProduct/LightMode3.png)
 Technologies used :
 
 MERN STACK
@@ -20,7 +33,7 @@ REACT ROUTER FOR NAVIGATION
 
 FORMIK AND YUP FOR FORM AND FORM VALIDATION
 
-![FORMIKANDYUP_IMAGE](public/info/F&Y.png
+![FORMIKANDYUP_IMAGE](public/info/F&Y.png)
 
 REDUX TOOLKIT FOR STATE MANAGEMENT
 
