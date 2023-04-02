@@ -6,7 +6,7 @@
 
 ## ScreenShots
 
-- LIGHT MODE
+- DARK MODE
 
 ![DM1](public/FinishProduct/DarkMode1.png)
 
@@ -16,7 +16,7 @@
 
 ![DM4](public/FinishProduct/DarkMode4.png)
 
-- DARK MODE
+- LIGHT MODE
 
 ![LM1](public/FinishProduct/LightMode1.png)
 
