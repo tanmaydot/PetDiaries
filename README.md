@@ -1,6 +1,12 @@
-# FullStack Social Media App
+# **FullStack Social Media App**
 
-React MERN Social Media App inspired from <https://github.com/ed-roh/mern-social-media>
+- _React MERN Social Media App inspired from <https://github.com/ed-roh/mern-social-media>_
+
+---
+
+## ScreenShots
+
+- LIGHT MODE
 
 ![DM1](public/FinishProduct/DarkMode1.png)
 
@@ -10,18 +16,23 @@ React MERN Social Media App inspired from <https://github.com/ed-roh/mern-social
 
 ![DM4](public/FinishProduct/DarkMode4.png)
 
+- DARK MODE
+
 ![LM1](public/FinishProduct/LightMode1.png)
 
 ![LM2](public/FinishProduct/LightMode2.png)
 
 ![LM3](public/FinishProduct/LightMode3.png)
-Technologies used :
+
+---
+
+## Technologies used
 
 MERN STACK
 
 ![MERN_IMAGE](public/info/MERN.png)
 
-FOR THE FRONTEND
+## FOR THE FRONTEND
 
 REACT AS A FRONTEND FRAMEWORK
 
@@ -47,7 +58,9 @@ REACT DROPZONE FOR IMAGE UPLOADS
 
 ![REACT_DROPZONE_IMAGE](public/info/DROPZONE.png)
 
-FOR THE BACKEND
+---
+
+## FOR THE BACKEND
 
 NODEJS AS RUNTIME
 
@@ -68,3 +81,5 @@ JSON WEB TOKEN FOR AUTHENTICATION
 MULTER FOR FILE UPLOAD
 
 ![MULTER_IMAGE](public/info/MULTER.png)
+
+---
