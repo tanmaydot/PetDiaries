@@ -2,7 +2,7 @@ server cmds
 
 npm i -g nodemon
 npm i express body-parser bcrypt cors dotenv gridfs-stream multer-gridfs-storage helmet morgan jsonwebtoken mongoose
-n
+npm init -y
 
 client cmds 
 

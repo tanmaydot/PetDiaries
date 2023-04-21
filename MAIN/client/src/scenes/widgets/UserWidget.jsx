@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   ManageAccountsOutlined,
-  EditOutlined,
   LocationOnOutlined,
   WorkOutlineOutlined,
 } from "@mui/icons-material";
@@ -120,28 +119,14 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <img src="../assets/twitter.png" alt="twitter" />
+            <img src="../assets/github.png" alt="github" width={"50"}/>
             <Box>
               <Typography color={main} fontWeight="500">
-                Twitter
+                GitHub
               </Typography>
-              <Typography color={medium}>Social Network</Typography>
+              <Typography color={medium}>tanmaydot</Typography>
             </Box>
           </FlexBetween>
-          <EditOutlined sx={{ color: main }} />
-        </FlexBetween>
-
-        <FlexBetween gap="1rem">
-          <FlexBetween gap="1rem">
-            <img src="../assets/linkedin.png" alt="linkedin" />
-            <Box>
-              <Typography color={main} fontWeight="500">
-                Linkedin
-              </Typography>
-              <Typography color={medium}>Network Platform</Typography>
-            </Box>
-          </FlexBetween>
-          <EditOutlined sx={{ color: main }} />
         </FlexBetween>
       </Box>
     </WidgetWrapper>
