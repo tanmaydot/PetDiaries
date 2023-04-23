@@ -52,6 +52,7 @@ const MyPostWidget = ({ picturePath }) => {
     dispatch(setPosts({ posts }));
     setImage(null);
     setPost("");
+    setIsImage(false); // Reset isImage state
   };
 
   return (
@@ -78,7 +79,6 @@ const MyPostWidget = ({ picturePath }) => {
           p="1rem"
         >
           <Dropzone
-            acceptedFiles=".jpg,.jpeg,.png"
             accept={{
               "image/*": [".jpg", ".jpeg", ".png"],
             }}

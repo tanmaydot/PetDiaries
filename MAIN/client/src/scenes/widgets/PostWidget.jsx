@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import {
   ChatBubbleOutlineOutlined,
   FavoriteBorderOutlined,
   FavoriteOutlined,
-  ShareOutlined,
+  DeleteOutlined,
 } from "@mui/icons-material";
 import { Box, Divider, IconButton, Typography, useTheme } from "@mui/material";
 import FlexBetween from "components/FlexBetween";
@@ -27,8 +28,10 @@ const PostWidget = ({
   const dispatch = useDispatch();
   const token = useSelector((state) => state.token);
   const loggedInUserId = useSelector((state) => state.user._id);
+  const [shouldRerender, setShouldRerender] = useState(false);
   const isLiked = Boolean(likes[loggedInUserId]);
   const likeCount = Object.keys(likes).length;
+  const user = useSelector((state) => state.user);
 
   const { palette } = useTheme();
   const main = palette.neutral.main;
@@ -47,6 +50,24 @@ const PostWidget = ({
     dispatch(setPost({ post: updatedPost }));
   };
 
+  const handleDelete = async () => {
+    if (loggedInUserId !== postUserId) {
+      return; // do not allow deletion if the user is not the owner of the post
+    }
+    const response = await fetch(`http://localhost:3001/posts/${postId}`, {
+      method: "DELETE",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+    });
+    const message = await response.json();
+    setShouldRerender(true);
+  };
+
+  if (shouldRerender) {
+    return null; // return null to prevent rendering the deleted post
+  }
   return (
     <WidgetWrapper m="2rem 0">
       <Friend
@@ -88,9 +109,13 @@ const PostWidget = ({
           </FlexBetween>
         </FlexBetween>
 
-        <IconButton>
-          <ShareOutlined />
-        </IconButton>
+        {postUserId === loggedInUserId ? (
+          <IconButton onClick={handleDelete}>
+            <DeleteOutlined />
+          </IconButton>
+        ) : (
+          <></>
+        )}
       </FlexBetween>
       {isComments && (
         <Box mt="0.5rem">

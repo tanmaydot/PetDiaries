@@ -119,12 +119,55 @@ const UserWidget = ({ userId, picturePath }) => {
 
         <FlexBetween gap="1rem" mb="0.5rem">
           <FlexBetween gap="1rem">
-            <img src="../assets/github.png" alt="github" width={"50"}/>
+            <img src="../assets/github.png" alt="github" width={"50"} />
             <Box>
               <Typography color={main} fontWeight="500">
                 GitHub
               </Typography>
-              <Typography color={medium}>tanmaydot</Typography>
+              <Typography color={medium}>
+                {" "}
+                <a
+                  href="https://github.com/tanmaydot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    textDecoration: "none",
+                    color: medium,
+                    fontWeight: 250,
+                    display: "inline-block",
+                    padding: "0.25rem 0",
+                  }}
+                >
+                  tanmaydot
+                </a>
+              </Typography>
+            </Box>
+          </FlexBetween>
+        </FlexBetween>
+        <FlexBetween gap="1rem" mb="0.5rem">
+          <FlexBetween gap="1rem">
+            <img src="../assets/github.png" alt="github" width={"50"} />
+            <Box>
+              <Typography color={main} fontWeight="500">
+                GitHub
+              </Typography>
+              <Typography color={medium}>
+                {" "}
+                <a
+                  href="https://github.com/superboysagar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    textDecoration: "none",
+                    color: medium,
+                    fontWeight: 250,
+                    display: "inline-block",
+                    padding: "0.25rem 0",
+                  }}
+                >
+                  superboysagar
+                </a>
+              </Typography>
             </Box>
           </FlexBetween>
         </FlexBetween>

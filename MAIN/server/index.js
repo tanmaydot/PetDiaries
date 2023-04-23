@@ -19,9 +19,9 @@ import { verifyToken } from "./middleware/auth.js";
 // import { users, posts } from "./data/index.js";
 
 /* CONFIGURATIONS */
+dotenv.config({ path: path.resolve("MAIN/server/.env") });
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(helmet());
@@ -41,6 +41,7 @@ const storage = multer.diskStorage({
     cb(null, file.originalname);
   },
 });
+
 const upload = multer({ storage });
 
 /* ROUTES WITH FILES */
@@ -53,20 +54,20 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 3001 || 6001;
-const url =
-  "mongodb+srv://petdairies:petdairies@cluster1.nebibmu.mongodb.net/?retryWrites=true&w=majority";
+const PORT = process.env.PORT || 6001;
+const URL = process.env.URL;
+
 mongoose.set("strictQuery", false);
 mongoose
-  .connect(url || process.env.url, {
+  .connect(URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+    console.log(URL);
     /* ADD DATA ONE TIME */
     // User.insertMany(users);
     // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
-console.log(process.env.url, PORT, url);

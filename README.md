@@ -1,85 +1,42 @@
 # **FullStack Social Media App**
 
-- _React MERN Social Media App inspired from <https://github.com/ed-roh/mern-social-media>_
-
----
+- A Social Media Web Application For PetLovers!
 
 ## ScreenShots
 
-- DARK MODE
+![Register](public/FinishProduct/registerpage.png)
 
-![DM1](public/FinishProduct/DarkMode1.png)
+![Login](public/FinishProduct/login.png)
 
-![DM2](public/FinishProduct/DarkMode2.png)
+![Home](public/FinishProduct/homepage.png)
 
-![DM3](public/FinishProduct/DarkMode3.png)
+![Homes](public/FinishProduct/homepages.png)
 
-![DM4](public/FinishProduct/DarkMode4.png)
+![Profile](public/FinishProduct/profilepage.png)
 
-- LIGHT MODE
+![Posting_1](public/FinishProduct/addingpost_1.png)
 
-![LM1](public/FinishProduct/LightMode1.png)
+![Posting_2](public/FinishProduct/addingpost_2.png)
 
-![LM2](public/FinishProduct/LightMode2.png)
+![Posting_3](public/FinishProduct/addingpost_3.png)
 
-![LM3](public/FinishProduct/LightMode3.png)
-
----
-
-## Technologies used
-
-MERN STACK
-
-![MERN_IMAGE](public/info/MERN.png)
-
-## FOR THE FRONTEND
-
-REACT AS A FRONTEND FRAMEWORK
-
-![REACT_IMAGE](public/info/REACT.png)
-
-REACT ROUTER FOR NAVIGATION
-
-![REACT_ROUTER_IMAGE](public/info/ROUTER.png)
-
-FORMIK AND YUP FOR FORM AND FORM VALIDATION
-
-![FORMIKANDYUP_IMAGE](public/info/F&Y.png)
-
-REDUX TOOLKIT FOR STATE MANAGEMENT
-
-![REDUX_TOOLKIT_IMAGE](public/info/REDUXT.png)
-
-REDUX PERSISTENT TO STORE IN LOCAL STORAGE
-
-![REDUX_PERSISTENT_IMAGE](public/info/REDUXP.png)
-
-REACT DROPZONE FOR IMAGE UPLOADS
-
-![REACT_DROPZONE_IMAGE](public/info/DROPZONE.png)
+![Posting_4](public/FinishProduct/addingpost_4.png)
 
 ---
 
-## FOR THE BACKEND
+## Technology Used
 
-NODEJS AS RUNTIME
+Here are some of the technologies used in this project:
 
-![NODEJS_IMAGE](public/info/NJS.png)
+- [MongoDB](https://www.mongodb.com/)
+- [Express.js](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
 
-EXPRESSJS AS BACKEND FRAMEWORK
+---
 
-![EXPRESSJS_IMAGE](public/info/EJS.png)
+## Acknowledgements
 
-MONGODB FOR MANAGAING DATABASE
-
-![MONGOOSE_IMAGE](public/info/MDB.png)
-
-JSON WEB TOKEN FOR AUTHENTICATION
-
-![JSONWEBTOKEN_IMAGE](public/info/JWT.png)
-
-MULTER FOR FILE UPLOAD
-
-![MULTER_IMAGE](public/info/MULTER.png)
+[ED ROH](https://github.com/ed-roh/mern-social-media)
 
 ---

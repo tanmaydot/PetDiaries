@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
-
+import dotenv from "dotenv";
+dotenv.config({ path: "MAIN/server/.env"});
 export const verifyToken = async (req, res, next) => {
   try {
     let token = req.header("Authorization");
@@ -12,11 +13,12 @@ export const verifyToken = async (req, res, next) => {
       token = token.slice(7, token.length).trimLeft();
     }
 
-    const secret = "petspetpetspet";
-    const verified = jwt.verify(token, process.env.JWT_SECRET || secret);
+    const verified = jwt.verify(token, process.env.JWT_SECRET);
     req.user = verified;
     next();
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 };
+
+console.log(process.env.JWT_SECRET);
