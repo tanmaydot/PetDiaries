@@ -10,8 +10,6 @@
 
 ![Home](public/FinishProduct/homepage.png)
 
-![Homes](public/FinishProduct/homepages.png)
-
 ![Profile](public/FinishProduct/profilepage.png)
 
 ![Posting_1](public/FinishProduct/addingpost_1.png)
@@ -21,6 +19,8 @@
 ![Posting_3](public/FinishProduct/addingpost_3.png)
 
 ![Posting_4](public/FinishProduct/addingpost_4.png)
+
+![Homes](public/FinishProduct/homepages.png)
 
 ---
 
