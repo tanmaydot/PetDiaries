@@ -14,7 +14,7 @@ const LoginPage = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          🐾PetDiaries
+          PetDairies
         </Typography>
       </Box>
 
@@ -26,7 +26,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to 🐾PetDiaries, the Social Media for PetLovers!
+          Welcome to PetDairies, the Social Media for PetLovers!
         </Typography>
         <Form />
       </Box>
