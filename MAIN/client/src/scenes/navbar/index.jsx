@@ -48,7 +48,7 @@ const Navbar = () => {
             },
           }}
         >
-          PetDairies
+          PetDiaries🐾
         </Typography>
       </FlexBetween>
 
