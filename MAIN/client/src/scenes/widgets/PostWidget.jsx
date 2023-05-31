@@ -58,7 +58,7 @@ const PostWidget = ({
       return; // do not allow deletion if the user is not the owner of the post
     }
     const response = await fetch(
-      `https://pet-diaries-server.onrender.com/assets/${postId}`,
+      `https://pet-diaries-server.onrender.com/posts/${postId}`,
       {
         method: "DELETE",
         headers: {
@@ -74,6 +74,7 @@ const PostWidget = ({
   if (shouldRerender) {
     return null; // return null to prevent rendering the deleted post
   }
+
   return (
     <WidgetWrapper m="2rem 0">
       <Friend
