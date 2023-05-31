@@ -1,12 +1,18 @@
 # **FullStack Social Media App**
 
-- A Social Media Web Application For PetLovers!
+## A Social Media Web Application For PetLovers!
 
-[DEMO](https://pet-diaries.vercel.app/)
+---
 
- test account
- email : ```test@test.com```
- password : ```test```
+## [DEMO](https://pet-diaries.vercel.app/)
+
+---
+
+the test account details
+- email : ```test@test.com```
+- password : ```test```
+
+---
 
 ## ScreenShots
 
@@ -27,6 +33,14 @@
 ![Posting_3](public/FinishProduct/addingpost_3.png)
 
 ![Posting_4](public/FinishProduct/addingpost_4.png)
+
+---
+
+## Future Updates :-> 
+- Comments Feature
+- Adoption Center or Shelters Nearby
+- Sharing Feature
+- Video Uploads
 
 ---
 
