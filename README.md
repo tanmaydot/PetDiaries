@@ -1,4 +1,4 @@
-# **FullStack Social Media App**
+# **MERN FullStack Social Media App**
 
 ## A Social Media Web Application For PetLovers!
 
@@ -45,6 +45,9 @@ the test account details
 - Adoption Center or Shelters Nearby
 - Sharing Feature
 - Video Uploads
+
+## Know bug
+- While adding a post from the user profile page; every post from every user is visible in the user profile page
 
 ---
 
