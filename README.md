@@ -6,6 +6,10 @@
 
 ## [DEMO](https://pet-diaries.vercel.app/)
 
+- Deployed on [Vercel](https://vercel.com) and [Render](https://render.com/)
+- Wait for 30 second time for the server to start after clicking on the log in button
+- Note : ``` First access the website in the test account so you won't have any problems while creating a new account ```
+
 ---
 
 the test account details
